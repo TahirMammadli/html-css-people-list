@@ -1,0 +1,62 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background:radial-gradient( rgb(0, 159, 161),rgb(158, 201, 202));
+    height: 1000px;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.image{
+    display: inline-block;
+}
+
+.person-info{
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.list{
+    list-style: none;
+    padding: 0px;
+}
+
+
+.list__item{
+    margin: 0 10px;
+
+    margin-left: 0;
+
+    display: inline-block;
+}
+.person{
+    display: inline-block;
+    margin: 30px;
+}
+
+.header{
+    text-align: left;
+    top:0px;
+    left: 50px;
+    position: absolute;
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: azure;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+    padding: 30px;
+}
+
